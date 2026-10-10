@@ -48,7 +48,7 @@ if uploaded_file is not None:
             try:
 
                 response = requests.post(
-                    "http://127.0.0.1:8000/analyze",
+                    "https://ai-ecommerce-analytics.onrender.com/analyze",
                     files=files
                 )
 
