@@ -160,7 +160,7 @@ if uploaded_file is not None:
                         )
 
                         st.subheader(
-                            "🔥 Predicted Demand by Product"
+                            "Predicted Demand by Product"
                         )
 
                         demand_chart = (
